@@ -1,359 +1,310 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>YouTube.com Clone</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/video.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="icons/youtube-logo.svg">
-      </div>
-      <div class="middle-section">
-        <input class="search-bar" type="text" placeholder="Search">
-        <button class="search-button">
-          <img class="search-icon" src="icons/search.svg">
-          <div class="tooltip">Search</div>
-        </button>
-        <!-- Put position absolute inside position relative -->
-        <button class="voice-search-button">
-          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-          <div class="tooltip">Search with your voice</div>
-        </button>
-      </div>
-      <div class="right-section">
-        <div class="upload-icon-container">
-          <img class="upload-icon" src="icons/upload.svg">
-          <div class="tooltip">Create</div>
-        </div>
-        <div class="youtube-apps-icon-container">
-          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-          <div class="tooltip">YouTube Apps</div>
-        </div>
-        <div class="notifications-icon-container">
-          <img class="notifications-icon" src="icons/notifications.svg">
-          <div class="notifications-count">3</div>
-          <div class="tooltip">Notifications</div>
-        </div>
-        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
-      </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i_saad_shaik</title>
+    <style>
+        .full-screen{
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="
+    full-screen
+    d-flex
+    align-items-center
+    justify-content-center
+    alight-content-center
+    text-center
+    flex-column
+    "
+    <header>
+        <h1>i_saad.shaik</h1>
     </header>
-
-    <nav class="sidebar">
-      <div class="sidebar-link">
-        <img src="icons/home.svg">
-        <div>Home</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/explore.svg">
-        <div>Explore</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/subscriptions.svg">
-        <div>Subscriptions</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/originals.svg">
-        <div>Originals</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/youtube-music.svg">
-        <div>YouTube Music</div>
-      </div>
-      <div class="sidebar-link">
-        <img src="icons/library.svg">
-        <div>Library</div>
-      </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
-
     <main>
-      <section class="video-grid">
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-            <div class="video-time">14:20</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Talking Tech and AI with Google CEO Sundar Pichai!
-              </p>
-              <p class="video-author">
-                Marques Brownlee
-              </p>
-              <p class="video-stats">
-                3.4M views &#183; 6 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-            <div class="video-time">8:22</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Try Not To Laugh Challenge #9
-              </p>
-              <p class="video-author">
-                Markiplier
-              </p>
-              <p class="video-stats">
-                19M views &#183; 4 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
-            <div class="video-time">9:13</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-3.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Crazy Tik Toks Taken Moments Before DISASTER
-              </p>
-              <p class="video-author">
-                SSSniperWolf
-              </p>
-              <p class="video-stats">
-                12M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
-            <div class="video-time">22:09</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-4.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The Simplest Math Problem No One Can Solve - Collatz Conjecture
-              </p>
-              <p class="video-author">
-                Veritasium
-              </p>
-              <p class="video-stats">
-                18M views &#183; 4 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
-            <div class="video-time">11:17</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Kadane's Algorithm to Maximum Sum Subarray Problem
-              </p>
-              <p class="video-author">
-                CS Dojo
-              </p>
-              <p class="video-stats">
-                519K views &#183; 5 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
-            <div class="video-time">19:59</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-6.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Anything You Can Fit In The Circle I’ll Pay For
-              </p>
-              <p class="video-author">
-                MrBeast
-              </p>
-              <p class="video-stats">
-                141M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
-            <div class="video-time">10:13</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-7.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Why Planes Don't Fly Over Tibet
-              </p>
-              <p class="video-author">
-                RealLifeLore
-              </p>
-              <p class="video-stats">
-                6.6M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
-            <div class="video-time">7:12</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-8.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Inside The World's Biggest Passenger Plane
-              </p>
-              <p class="video-author">
-                Tech Vision
-              </p>
-              <p class="video-stats">
-                3.7M views &#183; 10 months ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
-            <div class="video-time">13:17</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-9.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                The SECRET to Super Human STRENGTH
-              </p>
-              <p class="video-author">
-                ThenX
-              </p>
-              <p class="video-stats">
-                20M views &#183; 3 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-10.webp">
-            <div class="video-time">7:53</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-10.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
-              </p>
-              <p class="video-author">
-                Business Insider
-              </p>
-              <p class="video-stats">
-                14M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
-            <div class="video-time">4:10</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-11.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                Dubai's Crazy Underwater Train and Other Things #Only in Dubai
-              </p>
-              <p class="video-author">
-                Destination Tips
-              </p>
-              <p class="video-stats">
-                3M views &#183; 1 year ago
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/thumbnail-12.webp">
-            <div class="video-time">4:51</div>
-          </div>
-          <div class="video-info-grid">
-            <div class="channel-picture">
-              <img class="profile-picture" src="channel-pictures/channel-12.jpeg">
-            </div>
-            <div class="video-info">
-              <p class="video-title">
-                What would happen if you didn’t drink water? - Mia Nacamulli
-              </p>
-              <p class="video-author">
-                TED-Ed
-              </p>
-              <p class="video-stats">
-                12M views &#183; 5 years ago
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
+</body>
 </html>
+<head>
+    <style>
+        p {
+            color: rgb(22, 16, 5);
+            font-size: 18px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <p>This is a styled paragraph.</p>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Text Example</title>
+    <style>
+        /* Define the animation */
+        @keyframes moveText {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(100px); }
+            100% { transform: translateX(0); }
+        }
 
+        /* Apply the animation to the element */
+        .moving-text {
+            animation: moveText 3s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="moving-text">click on !</h1>
+<head></head>
+</body>
+    <h1 id="title" class="highlight">about sm saad </h1>
+    <p class="highlight">About SM Saad: Photographer and Software Developer
+
+        SM Saad is a multi-talented individual who excels in both the realms of photography and software development. With a unique blend of artistic vision and technical prowess, Saad has made a notable mark in these two distinct yet interconnected fields.
+        
+        Photography Journey:
+        Saad's journey as a photographer began with a fascination for capturing the beauty of the world through the lens. His keen eye for detail and his ability to find beauty in the ordinary set him apart. From breathtaking landscapes to captivating portraits, Saad's photography showcases his ability to freeze moments in time, conveying emotions and stories through his images.
+        
+        His dedication to photography has led him to explore various genres, from nature and travel photography to fashion and lifestyle. His photographs not only reflect his technical expertise but also his unique perspective and artistic sensibility.
+        
+        Software Development Expertise:
+        In the realm of software development, Saad's skills are equally remarkable. With a passion for technology and problem-solving, he has honed his coding abilities to create innovative and efficient solutions. Saad's proficiency extends across multiple programming languages and technologies, allowing him to craft software that seamlessly blends functionality and user experience.
+        
+        Saad's experience in software development ranges from building web applications to designing mobile apps. His commitment to staying updated with the latest trends and tools in the field ensures that his creations are both current and effective.
+        
+        Synergy of Art and Tech:
+        What truly sets SM Saad apart is his ability to bridge the gap between art and technology. His photography benefits from his software development skills as he leverages digital tools to enhance and refine his images. Likewise, his software development projects reflect his artistic mindset, resulting in user-friendly and visually appealing applications.
+        
+        Whether behind the camera or in front of the computer screen, SM Saad embodies the fusion of creativity and technical expertise. His journey as a photographer and software developer exemplifies the power of combining passion with skill, resulting in a unique and impactful portfolio that resonates with audiences across both worlds.
+        .</p>
+</body>
+<section>
+   <head>
+    <body>
+        <h1>This is saad </h1>
+    </body>
+   </head>
+<!-- partial:index.partial.html -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="slider-item swiper-slide">
+      <div class="slider-image-wrapper">
+        <img class="slider-image" src="dff.jpg" alt="SliderImg">
+        </div>
+      <div class="slider-item-content">
+        <h1>Postcards From Italy</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+      </div>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Link Example</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a sample paragraph with a <a href="https://shajahanbasha001.wixsite.com/traditionalhealers-1">link</a>shajahanbasha001@gmail.com</p>
+</body>
+</html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Analog CLock</title>
+  
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+ 
+body, html {
+  background: #0ab2d4bd;
+  margin: 0;
+  height: 100vh;
+  color: #fff;
+  font-family: "Comfortaa", cursive;
+}
+
+.clock {
+  --clock-size: 360px;
+  width: var(--clock-size);
+  height: var(--clock-size);
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+.spike {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: #fff9;
+  line-height: 20px;
+  transform-origin: 50%;
+  z-index: 5;
+  inset: 0;
+  margin: auto;
+  font-style: normal;
+  transform: rotate(var(--rotate)) translateX(var(--dail-size));
+}
+.spike:nth-child(5n+1) {
+  box-shadow: -7px 0 #fff9;
+}
+.spike:nth-child(5n+1):after {
+  content: attr(data-i);
+  position: absolute;
+  right: 22px;
+  top: -10px;
+  transition: 1s linear;
+  transform: rotate(calc( var(--dRotate) - var(--rotate)));
+}
+
+.seconds {
+  --dRotate: 0deg;
+  --dail-size: calc((var(--clock-size)/ 2) - 8px);
+  font-weight: 800;
+  font-size: 18px;
+  transform: rotate(calc( -1 * var(--dRotate)));
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  transition: 1s linear;
+}
+
+.minutes {
+  --dail-size: calc((var(--clock-size)/ 2) - 65px);
+  font-size: 16px;
+  transform: rotate(calc( -1 * var(--dRotate)));
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  transition: 1s linear;
+}
+
+.stop-anim {
+  transition: 0s linear;
+}
+.stop-anim .spike:after {
+  transition: 0s linear !important;
+}
+
+.hour {
+  font-size: 70px;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.minute {
+  font-size: 36px;
+  font-weight: 900;
+  position: absolute;
+  background: #a98e08;
+  z-index: 10;
+  right: calc(var(--clock-size)/ 4.5);
+  top: 50%;
+  transform: translateY(-50%);
+}
+.minute:after {
+  content: "";
+  position: absolute;
+  border: 2px solid #0bb280;
+  border-right: none;
+  height: 50px;
+  left: -10px;
+  top: 50%;
+  border-radius: 40px 0 0 40px;
+  width: calc(var(--clock-size)/ 2.75);
+  transform: translatey(-50%);
+}
+</style>
+</head>
+<body>
+
+<second class="clock">
+  <div class="seconds"></div>
+  <div class="minutes"></div>
+  <div class="minute">44</div>
+  <div class="hour"></div>
+</second>
+
+  <script>
+	const seconds = document.querySelector('.seconds');
+const minutes = document.querySelector('.minutes');
+const minute = document.querySelector('.minute');
+const hour = document.querySelector('.hour');
+
+// Create spikes
+for(let s = 0; s < 60 ; s++){
+  let mSpikeEl = document.createElement('i');
+  let sSpikeEl = document.createElement('i');
+  mSpikeEl.className = 'spike'
+  sSpikeEl.className = 'spike'
+  mSpikeEl.style = `--rotate:${6 * s}deg`;
+  sSpikeEl.style = `--rotate:${6 * s}deg`;
+  mSpikeEl.setAttribute('data-i', s);
+  sSpikeEl.setAttribute('data-i', s);
+
+  seconds.append(sSpikeEl);
+  minutes.append(mSpikeEl);
+}
+
+function getTime() {
+		let date = new Date(),
+    s  = date.getSeconds() ,
+    m  = date.getMinutes();
+  
+  	hour.textContent = date.getHours();
+  	minute.textContent = m;
+  
+
+  	minutes.style = `--dRotate:${6 * m}deg`;
+
+    if(s == 0){
+			seconds.classList.add('stop-anim')
+    } else{
+      seconds.classList.remove('stop-anim')
+    }
+    if(m == 0){
+			minutes.classList.add('stop-anim')
+    } else{
+      minutes.classList.remove('stop-anim')
+    }
+  	
+  		seconds.style = `--dRotate:${6 * s}deg`;
+}
+
+
+
+
+
+
+setInterval(getTime, 1000);
+getTime();
+  </script>
+
+</body>
+</html></body>
+</html>
+</main>
+<footer>
+<p>&copy; 2023 saad . All rights reserved.</p>
+</footer>
+<body>
+  
+</body>
